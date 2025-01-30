@@ -193,3 +193,8 @@ kernels_upload_widget.observe(lambda _: classify_image(_, kernels_output, kernel
 
 def display_kernels_upload():
     display(kernels_upload_widget, kernels_output)
+
+
+def display_resnet18_architecture():
+    display(widgets.HTML("<b>ResNet18 Architecture</b>"))
+    print(model)
